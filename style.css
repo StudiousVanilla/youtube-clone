@@ -1,0 +1,211 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(243, 243, 243);
+}
+
+
+
+
+
+
+
+
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0 16px;
+    font-size: 10px;
+    background-color: white;
+}
+
+material-icons{
+    height: 24px;
+    width: 24px;
+    padding: 8px;
+}
+
+.menu{
+    margin-left: 8px;
+}
+
+.logo{
+    height: 26px;
+    width: 96px;
+    position: absolute;
+    left: 70px;
+    margin-right: 150px;
+}
+
+.search-bar{
+    width: 574px;
+    height: 32px;
+    margin-left: 40px;
+    font-family: 'Roboto','Noto',sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 1px 2px 0px 10px;
+    position: relative;
+    left: 260px;
+    line-height: 56px;
+    color: #000;
+    border: 1px solid #BEBEBE;
+    border-radius: 2px 0 0 2px;
+
+}
+
+.search-button{
+    width: 65px;
+    height: 32px;
+    vertical-align: middle;
+    position: absolute;
+    left: 942px;
+    color: #000;
+    border: 1px solid #BEBEBE;
+    border-radius: 2px 0 0 2px;
+    border-left: 0;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    background-color: #fafafa;
+  
+}
+
+.search-button i{
+    vertical-align: middle;
+    transform: scale(0.8);
+}
+    
+i {
+    opacity: .65;
+    transition: all .07s ease-in-out
+}
+      
+button:hover i {
+    opacity: .95
+}
+
+.extra-icons{
+    height: 100%;
+    width: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 490px;
+}
+
+.extra-icons i{
+    margin: 12px;
+}
+
+
+
+
+
+.sign-box{
+    height: 40px;
+    width: 105px;
+    display: flex;
+    align-items: center;
+    padding: 5px 8px;
+    border: 1px solid rgb(6, 95, 212);;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 900;
+    color: rgb(6, 95, 212);
+    margin-left: 4px;
+}
+
+.sign-box i {
+    margin-right: 5px;
+    color: rgb(6, 95, 212);
+    opacity: 1;
+    font-size: 24px;
+    transform: scale(1.1);
+    margin-left: 4px;
+}
+
+.sign-message{
+    margin-left: 2px;
+}
