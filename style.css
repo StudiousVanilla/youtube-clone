@@ -594,6 +594,15 @@ button:hover i {
   .sign-message{
     width: fit-content;
   }
+
+  .video-details{
+    flex-direction: column;
+  }
+
+  .video-icons{
+    width: 100%;
+    padding-top: 10px;
+  }
 }
 
 
