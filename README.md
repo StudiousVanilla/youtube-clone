@@ -1,6 +1,6 @@
 A simple YouTube clone.
 
-This site has very little functionality. It serves only to demonstrate proficency in CSS.
+This site has very little functionality. It serves only to demonstrate proficency in **HTML** & **CSS**.
 
 It is a copy of the standard YouTube page seen when a user is viewing a video.
 
